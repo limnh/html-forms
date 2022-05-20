@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Order a Melongram!</title>
+    </head>
+
+    <body>
+        <header>WELCOME TO THE MELON WORLD</header>    
+        <h1>Order a Melongram</h1>
+
+        <section id="intro">
+            <p>There's no better way to show a loved one you care than with a Melongram.</p>
+
+            <p>Each Melongram comes with a custom message printed on high-quality cardstock
+            and your choice of a hand-picked, premium melon.</p>
+        </section>
+
+        <h2>Melon Options</h2>
+
+        <section id="melon-selection">
+            <p>Choose from one of these melons:</p>
+
+            <table>
+                <tr>
+                    <td>Watermelon</td> 
+                    <td>$1,200.00</td>
+                </tr>
+                <tr>
+                    <td>Canteloupe</td> 
+                    <td>$400.00</td>
+                </tr>
+                <tr>
+                    <td>Honeydew</td> 
+                    <td>$1,750.00</td>
+                </tr>
+            </table>
+        </section>
+
+        <h2>Order Form</h2>
+        <section id="order-form">
+            <form>
+                <label for="name">Your name</label>
+                <input type="text" name="name" id="name"><br>
+                
+                <label for="recipient">Who are we sending this to?</label>
+                <input type="text" name="recipient" id="recipient"><br>
+
+                <label for="melon">Choose a melon</label><br>
+                <select name="melon" id="melon">
+                    <option value="watermelon">Watermelon</option>
+                    <option value="canteloupe">Canteloupe</option>
+                    <option value="honeydew">Honeydew</option>
+                </select>
+                <br>
+                <fieldset>
+                    <legend>When should we deliver?</legend>
+                    <br>
+
+                    <input type="radio" name="time" id="am" value="am"> 
+                    <label for="am">Morning</label>
+
+                    <input type="radio" name="time" id="pm" value="pm"> 
+                    <label for="pm">Evening</label>
+
+                    <input type="radio" name="time" id="any" value="any">
+                    <label for="any">Any time</label>
+                    <br>
+                </fieldset>    
+
+                <label for="message">Enter your message:</label>
+                <textarea id="message" name="message"></textarea>
+                <br>
+
+                <fieldset>
+                    <legend>Subscribe to our newsletter</legend>
+                    <input type="checkbox" name="subscribe" id="subscribe" value="yes">
+                    <label for="subscribe">Yes</label>
+                </fieldset> 
+                <br>
+                <button type="submit">Submit Melon Form</button>
+            </form>
+        </section>
+            <br>
+            <img src="wedidit.gif" alt="woman dancing because we wrote ugly html">
+            <footer><strong>Graced to you by software engineers Nicole Lim and Paloma Soltys</strong></footer>
+    </body>
+</html>
